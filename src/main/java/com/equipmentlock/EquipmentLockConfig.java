@@ -169,7 +169,7 @@ public interface EquipmentLockConfig extends Config
             section = strengthBonuses,
             position = 14
     )
-    default float magicDamage()
+    default double magicDamage()
     {
         return 0;
     }
