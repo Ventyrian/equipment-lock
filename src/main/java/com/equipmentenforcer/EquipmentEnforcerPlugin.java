@@ -20,7 +20,7 @@ import java.util.List;
 
 @Slf4j
 @PluginDescriptor(
-	name = "Equipment Lock"
+	name = "Equipment Enforcer"
 )
 public class EquipmentEnforcerPlugin extends Plugin
 {
