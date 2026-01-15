@@ -98,88 +98,88 @@ public class EquipmentEnforcerPlugin extends Plugin
         // Attack Bonuses
         if (failsCheck(config.attackCrush(), equipmentStats.getAcrush()))
         {
-            log.info("attackCrush failed check");
+            log.debug("attackCrush failed check");
             return false;
         }
         if (failsCheck(config.attackMagic(), equipmentStats.getAmagic()))
         {
-            log.info("attackMagic failed check");
+            log.debug("attackMagic failed check");
             return false;
         }
         if (failsCheck(config.attackRanged(), equipmentStats.getArange()))
         {
-            log.info("attackRanged failed check");
+            log.debug("attackRanged failed check");
             return false;
         }
         if (failsCheck(config.attackSlash(), equipmentStats.getAslash()))
         {
-            log.info("attackSlash failed check");
+            log.debug("attackSlash failed check");
             return false;
         }
         if (failsCheck(config.attackSpeed(), equipmentStats.getAspeed()))
         {
-            log.info("attackSpeed failed check");
+            log.debug("attackSpeed failed check");
             return false;
         }
         if (failsCheck(config.attackStab(), equipmentStats.getAstab()))
         {
-            log.info("attackStab failed check");
+            log.debug("attackStab failed check");
             return false;
         }
 
         // Defence Bonuses
         if (failsCheck(config.defenceCrush(), equipmentStats.getDcrush()))
         {
-            log.info("defenceCrush failed check");
+            log.debug("defenceCrush failed check");
             return false;
         }
         if (failsCheck(config.defenceMagic(), equipmentStats.getDmagic()))
         {
-            log.info("defenceMagic failed check");
+            log.debug("defenceMagic failed check");
             return false;
         }
         if (failsCheck(config.defenceRanged(), equipmentStats.getDrange()))
         {
-            log.info("defenceRanged failed check");
+            log.debug("defenceRanged failed check");
             return false;
         }
         if (failsCheck(config.defenceSlash(), equipmentStats.getDslash()))
         {
-            log.info("defenceSlash failed check");
+            log.debug("defenceSlash failed check");
             return false;
         }
         if (failsCheck(config.defenceStab(), equipmentStats.getDstab()))
         {
-            log.info("defenceStab failed check");
+            log.debug("defenceStab failed check");
             return false;
         }
 
         // Strength Bonuses
         if (failsCheck(config.magicDamage(), equipmentStats.getMdmg()))
         {
-            log.info("magicDamage failed check");
+            log.debug("magicDamage failed check");
             return false;
         }
         if (failsCheck(config.meleeStrength(), equipmentStats.getStr()))
         {
-            log.info("meleeStrength failed check");
+            log.debug("meleeStrength failed check");
             return false;
         }
         if (failsCheck(config.rangedStrength(), equipmentStats.getRstr()))
         {
-            log.info("rangedStrength failed check");
+            log.debug("rangedStrength failed check");
             return false;
         }
 
         // Other Bonuses
         if (failsCheck(config.prayer(), equipmentStats.getPrayer()))
         {
-            log.info("prayer failed check");
+            log.debug("prayer failed check");
             return false;
         }
         if (failsCheck(config.weight(), itemStats.getWeight()))
         {
-            log.info("weight failed check");
+            log.debug("weight failed check");
             return false;
         }
 
